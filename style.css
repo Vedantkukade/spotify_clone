@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@300&family=Playfair+Display&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("imglogo/mainbg.jpg");
+    background-size: 100%;
+}
+
+.header {
+    display: flex;
+    background-color: black;
+
+}
+/* 
+.header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header ul li {
+    float: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+} */
+
+.spot ul li {
+    list-style-type: none;
+    float: left;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.log{
+    background-color: rgba(0, 0, 0, 0.93);
+    width: 100%;
+    height:50px;
+    
+}
+
+.log ul li{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    float: right;
+    padding:18px;
+    color: aliceblue;
+    opacity: 0.7;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.log ul li:hover{
+    opacity: 1;
+}
+
+
+.log li{
+    cursor: pointer;
+}
+.logbutt button{
+    cursor: pointer;
+    border: 2px solid white;
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    opacity: 0.5;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+}
+.logbutt{
+    background-color: black;
+    color: white;
+    width: 50px;
+    
+}
+.logbutt button:hover{
+    opacity:1;
+   
+}
+
+.logo img {
+    height: 30px;
+    width: 50px;
+    padding: 0 8px;
+
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding-right: 8px;
+}
+
+.main{
+    display: flex;
+    
+}
+.all{
+   
+    background-color: rgb(0, 0, 0);
+    color:azure;
+    min-height:85px;
+    width:184px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    flex-wrap: wrap;*/
+    
+}
+
+.all ul li{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content:space-evenly;
+    padding: 18px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition-property: opacity;
+    transition-duration: 0.3s;
+    
+}
+.all ul li a{
+    text-decoration: none;
+    color: white;
+}
+.all ul li:hover{
+    opacity: 1;
+}
+.container{
+    min-height: 65vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 30px;
+    background-image: url("bg1.jpg");
+    background-size: 100%;
+
+}
+
+.songItem{
+    display: flex;
+    padding: 10px 0;
+    background-color: white;
+    color: black;
+    align-items: center;
+    border-radius: 14px;
+    justify-content: space-between;
+    margin: 5px 0;
+    
+
+
+}
+
+.songItem img{
+    height: 40px;
+    width: 40px;
+    margin: 0 6px;
+    border-radius: 34px;
+   
+
+}
+
+.timespan{
+    padding: 0 5px;
+    margin: 0 20px;
+}
+.timespan i{
+    cursor: pointer;
+}
+
+.footer{
+    color: white;
+    height: 100px;
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    
+}
+.songinfo{
+    position: absolute;
+    left: 14vw;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+
+}
+.songinfo img{
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+#progressbar{
+    width: 70%;
+    cursor: pointer;
+    
+}
+.icons{
+   margin-top: 10px;
+   cursor: pointer;
+   
+}
+.icons i{
+    padding:0 10px;
+}

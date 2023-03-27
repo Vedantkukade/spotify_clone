@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify Mobile-Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="spot">
+            <ul>
+                <li class="logo"><img src="imglogo/logo.png" alt="spotifylogo">Spotify</li>
+            </ul>
+        </div>
+        <div class="log">
+            <ul>
+                <li>Premium</li>
+                <li>Support</li>
+                <li>Download</li>
+                
+            </ul>
+        </div>
+        <div class="logbutt">
+            <a href="login.html"><button onclick="login.html">Log In</button></a>
+        </div>
+        
+    </div>
+    <div class="main">
+        <div class="all">
+            <ul>
+                <li><span><i class="fa-solid fa-house"></i>  <a href="mainpage.html">Home</a></span></li>
+                <li><span><i class="fa-solid fa-magnifying-glass"></i></i>  Search</span></li>
+                <li><span><i class="fa-solid fa-book"></i>  Your Library</span></li>
+                <li><span><i class="fa-regular fa-square-plus"></i>  Create Playlist</span></li>
+                <li><span><i class="fa-brands fa-gratipay"></i>  Liked Songs</span></li>
+            </ul>
+        </div>
+        <div class="container">
+        
+            <div class="songlist">
+                <h1>Best of Weekend</h1>
+                <div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">4:02 <i id="0" class="songname songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">5:04 <i id="1" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">4:28 <i id="2" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">4:49 <i id="3" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">5:09 <i id="4" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">3:56 <i id="5" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                    <div class="songItem">
+                        <img src="Hills.jpg" alt="1">
+                        <span class="songname">The_Hills_Weeknd</span>
+                        <span class="songlistplay"><span class="timespan">4:21 <i id="6" class="songicon fa-solid fa-circle-play"></i></span></span>
+                    </div>
+                  
+                   
+                
+                </div>
+            </div>
+    </div>
+    
+           
+        
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="footer">
+        <input type="range" name="range" id="progressbar" value="0" min="0" max="100">
+        <div class="icons">
+            <i class="fa-solid fa-2x fa-backward-step" id="previous"></i>
+            <i class="fa-solid fa-2x fa-circle-play" id="play1"></i>
+            <i class="fa-solid fa-2x fa-forward-step" id="next"></i>
+        </div>
+        <div class="songinfo">
+            <img src="playing3.gif" alt="gif" id="gif" height="30px" width="60px"><span id="mastersongname">Blinding_Lights_By_Weeknd</span>
+            <h4>The_Hills_By_Weeknd</h4>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/894f33d0e3.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+
+</body>
+</html>

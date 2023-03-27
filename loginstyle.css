@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.container{
+    height: 100vh;
+    width: 100%;
+    background-image:url("imglogo/spotify bg.jpg");
+    background-size:cover;
+    background-position: center;
+    position: relative;
+}
+
+.signup{
+    width: 60%;
+    max-width: 400px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color:azure;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    border: 2px solid black;
+    border-radius: 10px;
+    padding: 50px 60px 70px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+    align-items: center;
+
+}
+
+.signup h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: darkgreen;
+    position: relative;
+    /* background-color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    width: fit-content; */
+    
+   
+}
+.signup h2{
+    font-size: 30px;
+    margin-bottom: 60px;
+    color: blueviolet;
+    position: relative;
+   
+} 
+
+.signup h2::after{
+    content: '';
+    width: 30px;
+    height:4px ;
+    border-radius:3px ;
+    background-color: blueviolet;
+    position: absolute;
+    bottom: -12px;
+    left:50% ;
+    transform: translatex(-50%);
+}
+
+.details{
+    background-color: whitesmoke;
+    margin: 15px 0;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+
+}
+
+input{
+    width: 100%;
+    background: transparent;
+    border: 0;
+    outline: 00;
+    padding: 18px 15px;
+}
+
+.details i{
+    margin-left: 15px;
+    color: #999;
+}
+
+form p{
+    text-align: left;
+    font-size: 13px;
+}
+
+form p a{
+    text-decoration: none;
+    color:#3c00a0;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button{
+    flex-basis: 48%;
+    background-color: #3c00a0;
+    color: aliceblue;
+    height: 40px;
+    border-radius: 20px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition-property:background-color;
+    transition-duration: 1s;
+}
+
+.detailsgroup{
+    height: 280px;
+}
+
+.buttons button.disable{
+    background: #eaeaea;
+    color:gray;
+}
+
+
